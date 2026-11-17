@@ -1,16 +1,18 @@
 # C++ Calculator (v1.0)
 
-A modular, multi-file C++ CLI calculator built from scratch with OOP, raw pointer-based history tracking, chained calculations, and strict edge-case handling. Built in just **302 lines of code** without external libraries.
+A modular, multi-file C++ CLI calculator built from scratch with OOP, raw pointer-based history tracking, chained calculations, and strict edge-case handling. Built in just **364 lines of code** without external libraries.
 
 ## Project Structure
 
 ```text
 Calculator/
-├── Calculate.h             # Class declarations, enums, and state definitions (57 LOC)
-├── Calculator_Engine.cpp   # Core calculation logic, pointer history & UX flow (223 LOC)
-├── main.cpp                # Application entry point (11 LOC)
-├── Makefile                # Automated build configuration (11 LOC)
+├── Calculate.h             # Class declarations, enums, and state definitions (71 LOC)
+├── Calculator_Engine.cpp   # Core calculation logic, pointer history & UX flow (261 LOC)
+├── main.cpp                # Application entry point (17 LOC)
+├── Makefile                # Automated build configuration (15 LOC)
+├── .gitignore              # Ignores compiled binaries (*.exe, *.o) and local editor files
 └── README.md               # Project documentation
+
 ```
 
 ## Key Features (v1.0)
@@ -40,7 +42,7 @@ make
 ./calculator
 ```
 
-*(On Windows PowerShell/CMD, run `calculator.exe` or `mingw32-make` depending on your setup.)*
+_(On Windows PowerShell/CMD, run `calculator.exe` or `mingw32-make` depending on your setup.)_
 
 ## Roadmap (v2.0+)
 
